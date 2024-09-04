@@ -1,9 +1,10 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import Flime from "../../assets/flime.png";
+import Calculator from "../../assets/calculator.png";
+
+import Wedding from "../../assets/wedding.png";
+
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -11,28 +12,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={Calculator}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          h3="Calculator"
+          p="Calculator React Website"
         />
         <ProjectCard
-          src={freshBurger}
+          src={Flime}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          h3="Flime "
+          p="OTT Platform "
         />
         <ProjectCard
-          src={hipsster}
+          src={Wedding}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          h3="Wedding Planner"
+          p="Booking Wedding Planner"
         />
       </div>
     </section>

@@ -1,0 +1,145 @@
+/* ExperienceStyles.module.css */
+
+.experienceSection {
+    position: relative;
+    color: white;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experienceList {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .experienceItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+  
+  .year {
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #a3a3a3;
+    margin-bottom: 1rem;
+  }
+  
+  .details {
+    width: 100%;
+  }
+  
+  .roleCompany {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .role {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .company {
+    color: #a3a3a3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .description {
+    color: #d1d5db;
+    line-height: 1.6;
+    /* font-size: 1rem; */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .technology {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b46c1;
+    background-color: #1f2937;
+    border: none;
+    border-radius: 20px;
+    cursor: default;
+    transition: background-color 0.3s ease;
+  }
+  
+  .technology:hover {
+    background-color: #4c1d95;
+  }
+  
+  /* Gradient Backgrounds */
+  .gradient {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+  }
+  
+  .pink {
+    width: 30%;
+    height: 60%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(236, 72, 153, 0.6), rgba(236, 72, 153, 0));
+  }
+  
+  .blue {
+    width: 20%;
+    height: 70%;
+    top: 1rem;
+    left: 0;
+    background: linear-gradient(90deg, rgba(66, 153, 225, 0.6), rgba(66, 153, 225, 0));
+  }
+  
+  .yellow {
+    width: 10%;
+    height: 50%;
+    top: 2rem;
+    left: 0;
+    background: linear-gradient(90deg, rgba(251, 191, 36, 0.6), rgba(251, 191, 36, 0));
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .experienceItem {
+      flex-direction: row;
+    }
+  
+    .year {
+      width: 50%;
+      text-align: right;
+      padding-right: 2rem;
+      border-right: 2px solid #374151;
+      margin-bottom: 0;
+    }
+  
+    .details {
+      width: 50%;
+      padding-left: 2rem;
+    }
+  }
+  
