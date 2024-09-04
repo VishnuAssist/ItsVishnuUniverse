@@ -22,7 +22,6 @@ function Contact() {
           console.log("message sent to Vishnupriyan")
           // Optionally, you can clear the form or provide user feedback here.
           
-
         },
         (error) => {
           console.log('FAILED...', error.text);
