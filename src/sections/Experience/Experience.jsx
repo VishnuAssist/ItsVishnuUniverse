@@ -44,7 +44,7 @@ const Experience = () => {
         className={`${styles.header} flex justify-center flex-col w-full relative z-[4] mb-9`}
       >
         <div>
-          <h1 className={`${styles.title} text-white text-5xl text-center`}>Experience</h1>
+          <h1 className={`${styles.title} text-white text-5xl text-center`}>Project Experience</h1>
           <div className="text-center flex justify-center">
             <motion.img
               whileInView={{ width: 100, opacity: 1 }}

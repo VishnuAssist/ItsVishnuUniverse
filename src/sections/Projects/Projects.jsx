@@ -13,20 +13,20 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={Calculator}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/VishnuAssist/Calculator"
           h3="Calculator"
           p="Calculator React Website"
         />
         
         <ProjectCard
           src={Flime}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/VishnuVenkatDS/flime"
           h3="Flime "
           p="OTT Platform "
         />
         <ProjectCard
           src={Wedding}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/VishnuVenkatDS/venchiweddingplanner.blog"
           h3="Wedding Planner"
           p="Booking Wedding Planner"
         />

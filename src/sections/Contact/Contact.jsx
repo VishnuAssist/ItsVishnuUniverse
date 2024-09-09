@@ -26,7 +26,9 @@ function Contact() {
         (error) => {
           console.log('FAILED...', error.text);
         },
+        
       );
+      
   };
 
   return (
